@@ -13,6 +13,13 @@
       display: block;
       padding: 1rem;
     }
+    #output {
+      border: 1px solid black;
+      height: 10vh;
+      width: 80%;
+      margin: 1rem;
+      padding: 1rem;
+    }
   </style>
   <body>
     <h1>Banana Talks</h1>
@@ -21,6 +28,8 @@
       placeholder="Put your sentences in English here & will convert in Banana"
     ></textarea>
     <button id="btn-translate">Translate</button>
+    <div style="font-size: larger; padding: 1rem">Output will come here</div>
+    <div id="output"></div>
     <script src="app.js" type="text/javascript"></script>
   </body>
 </html>
